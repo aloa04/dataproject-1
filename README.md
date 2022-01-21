@@ -1,8 +1,8 @@
 # Data Project 1 - Master Data Analytics EDEM 2022
 
-|      |           |
+
 | ------------- |:-------------:|
-| ![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo_shonos.png?raw=true)      | Data anlytics for improving your businnes |
+| ![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo_shonos.png?raw=true)      | Improve your business with Data Analysis |
 
 
 ## Equipo
