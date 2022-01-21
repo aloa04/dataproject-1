@@ -2,7 +2,7 @@
 
 |      |           |
 | ------------- |:-------------:|
-| ![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo_shonos.png?raw=true)      | Improve your business with Data Analysis |
+| ![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo_shonos.png?raw=true)      | #Improve your business with Data Analysis  B2B2C projects for the healthcare sector|
 
 ## Meet our team
 
