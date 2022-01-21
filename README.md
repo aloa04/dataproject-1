@@ -1,11 +1,10 @@
 # Data Project 1 - Master Data Analytics EDEM 2022
 
-
+|      |           |
 | ------------- |:-------------:|
 | ![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo_shonos.png?raw=true)      | Improve your business with Data Analysis |
 
-
-## Equipo
+## Meet our team
 
 - [Julen Aguirreurreta](https://github.com/juagvi)
 - [Pablo Bottero](https://github.com/aloa04)
@@ -16,9 +15,9 @@
 
 
 
-## Proyecto
+## Our project
 
-El objetivo es diseñar un modelo que cuantifique la actividad física de una persona en un día y así poder ver cuánto ha caminado cada persona en kms para poder asignarle una puntuación o prima en relación a la media del resto de usuarios.
+The goal of the project is to design a model that quantifies the physical activity of users on a daily basis in order to analyze their lifestyle and thus adapt their insurance, as well as to offer them an insight to help them achieve a more active life.
 
 
 
