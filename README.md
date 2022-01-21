@@ -1,6 +1,6 @@
 # Data Project 1 - Master Data Analytics EDEM 2022
 
-[](https://github.com/aloa04/dataproject-1/blob/main/logo/logo.png)
+![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo.png?raw=true)
 
 
 ## Equipo
