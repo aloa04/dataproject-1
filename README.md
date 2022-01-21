@@ -1,5 +1,8 @@
 # Data Project 1 - Master Data Analytics EDEM 2022
 
+[](https://github.com/aloa04/dataproject-1/blob/main/logo/logo.png)
+
+
 ## Equipo
 
 - [Julen Aguirreurreta](https://github.com/juagvi)
