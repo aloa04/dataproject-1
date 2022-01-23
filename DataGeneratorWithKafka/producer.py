@@ -96,9 +96,9 @@ while True:
             )
             producer.send('topic_test', value=users_generated)
             print("aqui")
-            sleep(120)
+            sleep(2)
             # End Place for code
-            time.sleep(120)
+            time.sleep(2)
     except Exception as err:
         print(f"Unexpected {err}, {type(err)}")
         break

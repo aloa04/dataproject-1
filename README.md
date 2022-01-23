@@ -18,3 +18,7 @@ El objetivo es diseñar un modelo que cuantifique la actividad física de una pe
 
 
 ## Configuración
+
+Kafka: https://towardsdatascience.com/kafka-docker-python-408baf0e1088
+
+2- pip install -r requirements.txt
