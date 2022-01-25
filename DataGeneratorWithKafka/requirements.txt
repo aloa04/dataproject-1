@@ -1,0 +1,6 @@
+keyboard
+Faker 
+
+kafka-python
+pyspark
+Findspark

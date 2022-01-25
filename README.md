@@ -17,3 +17,11 @@
 ## Our project
 
 The goal of the project is to design a model that quantifies the physical activity of users on a daily basis in order to analyze their lifestyle and thus adapt their insurance, as well as to offer them an insight to help them achieve a more active life.
+
+
+
+## Configuración
+
+Kafka: https://towardsdatascience.com/kafka-docker-python-408baf0e1088
+
+2- pip install -r requirements.txt
