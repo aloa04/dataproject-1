@@ -99,9 +99,9 @@ while True:
                 print(f'User: {user}')
 
             print("aqui")
-            sleep(2)
+            sleep(10)
             # End Place for code
-            time.sleep(2)
+            time.sleep(10)
     except Exception as err:
         print(f"Unexpected {err}, {type(err)}")
         break
