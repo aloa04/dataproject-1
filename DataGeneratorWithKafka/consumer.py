@@ -76,14 +76,14 @@ for event in consumer:
     if user["id"] in users_dict:
         if users_dict[user["id"]]['Transport'] == "Walking":
             walking_distance = calculate_distance(
-                users_dict[user["id"]]["Lat"], users_dict[user["id"]]["Lat"], user["position"]["lat"], user["position"]["lon"])
+                users_dict[user["id"]]["Lat"], users_dict[user["id"]]["Lon"], user["position"]["lat"], user["position"]["lon"])
         # here we save distance_temp into the db adding the value if the date exist reseting to 0 if not
         if users_dict[user["id"]]['Transport'] == "Bike":
             biking_distance = calculate_distance(
-                users_dict[user["id"]]["Lat"], users_dict[user["id"]]["Lat"], user["position"]["lat"], user["position"]["lon"])
+                users_dict[user["id"]]["Lat"], users_dict[user["id"]]["Lon"], user["position"]["lat"], user["position"]["lon"])
         
-    args = (user["id"], walking_distance,
-            biking_distance, user["time"])
+    args = (user["id"], round(walking_distance,3),
+            round(biking_distance,3), user["time"])
     cursor.close()
     cursor = connection.cursor(buffered=True)
     cursor.execute(sql_call_insert_sp, args)
