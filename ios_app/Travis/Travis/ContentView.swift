@@ -6,11 +6,11 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-    TabView {
-        
+            TabView {
         FirstView ()
             .tabItem {
                 Image(systemName: "chart.bar.xaxis")
@@ -40,15 +40,20 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+    // PRIMERA PESTAÑA - DATOS COMPARATIVOS Y PROPIOS
 struct FirstView: View {
     var body: some View {
         ZStack {
             Color.white.ignoresSafeArea(edges: .top)
             Text("First View")
+            Image("memoji")
+                .resizable()
+                .scaledToFit()
         }
     }
 }
 
+    // SEGUNDA PESTAÑA - DATOS DE SALUD
 struct SecondView: View {
     var body: some View {
         ZStack {
@@ -58,6 +63,7 @@ struct SecondView: View {
     }
 }
 
+    // TERCERA PESTAÑA - "DATOS DEL PERFIL"
 struct ThirdView: View {
     var body: some View {
         ZStack {
@@ -66,4 +72,5 @@ struct ThirdView: View {
         }
     }
 }
+
 }
