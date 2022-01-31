@@ -61,6 +61,13 @@ create table KmxDay
         foreign key (clientsId) references Clients (clientId)
 );
 
+INSERT INTO zurich.Transports (transportName) VALUES ('bike');
+INSERT INTO zurich.Transports (transportName) VALUES ('train');
+INSERT INTO zurich.Transports (transportName) VALUES ('car');
+INSERT INTO zurich.Transports (transportName) VALUES ('walking');
+
+-- Procedure
+
 DELIMITER //
 
 CREATE PROCEDURE InsertUpdateKM (id varchar(20), kmw FLOAT, kmbikec float, date datetime)
