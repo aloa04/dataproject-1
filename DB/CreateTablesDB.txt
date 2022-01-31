@@ -61,18 +61,14 @@ create table KmxDay
         foreign key (clientsId) references Clients (clientId)
 );
 
--- Function
-
 DELIMITER //
 
-CREATE FUNCTION InsertUpdateKM (id varchar(20), kmw FLOAT, kmbikec float, date datetime)
-  RETURNS int
+CREATE PROCEDURE InsertUpdateKM (id varchar(20), kmw FLOAT, kmbikec float, date datetime)
   BEGIN
     IF (select count(*) from KmxDay where clientsId=id and createDate = date_format(date, "%Y-%m-%d"))>0 THEN UPDATE zurich.KmxDay SET km = km+kmw, kmBike = kmBike+kmbikec WHERE clientsId= id and createDate = date_format(date, "%Y-%m-%d");
     ELSE
     INSERT INTO zurich.KmxDay (clientsId, km, kmBike, score, createDate) VALUES (id, 0, 0, 0, date_format(date, "%Y-%m-%d"));
     END IF;
-    RETURN 1;
   END //
 
 DELIMITER ;

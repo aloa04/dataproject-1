@@ -45,7 +45,7 @@ connection = mysql.connector.connect(host='192.168.1.141',
 sql_get_user = """SELECT clientId FROM Clients WHERE clientId =%s"""
 sql_insert_user = """INSERT INTO Clients (clientId,clientsName,clientsLastName,age,gender,weight,height,bloodPressureSist,bloodPressureDiast,cholesterol,smoker,drinking,disability,previousPathology,postalCode) Values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
 sql_insert_coordinates = """INSERT INTO Coordinates (clientsId,transportId,latitude, longitude, createDate) Values (%s,%s,%s,%s,%s)"""
-sql_call_insert_sp = """SELECT InsertUpdateKM(%s,%s,%s,%s);"""
+sql_call_insert_sp = """call InsertUpdateKM(%s,%s,%s,%s);"""
 transport = {'Bike': '1', 'Train': '2', 'Car': '3', 'Walking': '4'}
 for event in consumer:
     event_data = event.value
