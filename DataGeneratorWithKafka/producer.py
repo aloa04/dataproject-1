@@ -95,7 +95,7 @@ while True:
             value_serializer=lambda x: dumps(x).encode('utf-8')
             )
             for user in users_generated.items():
-                producer.send('topic_test', value=user)
+                producer.send('zurich_topic', value=user)
                 print(f'User: {user}')
 
             print("aqui")

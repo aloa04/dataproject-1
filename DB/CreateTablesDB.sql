@@ -8,11 +8,12 @@ create table Clients
     gender varchar(20) null,
     weight float  null,
     height float null,
+    bodyFat int null,
     bloodPressureSist int not null,
     bloodPressureDiast int not null,
     cholesterol float null,
     smoker bit default null,
-    drinking int null,
+    drinking int  null,
     disability bit default null,
     previousPathology bit default null,
     postalCode int not null,
@@ -79,3 +80,4 @@ CREATE PROCEDURE InsertUpdateKM (id varchar(20), kmw FLOAT, kmbikec float, date 
   END //
 
 DELIMITER ;
+

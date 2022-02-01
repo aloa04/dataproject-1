@@ -28,7 +28,7 @@ def calculate_distance(lat_origin, long_origin, lat_dest, long_dest):
 
 users_dict = {}
 consumer = KafkaConsumer(
-    'topic_test',
+    'zurich_topic',
     bootstrap_servers=['localhost:9092'],
     auto_offset_reset='earliest',
     enable_auto_commit=True,
