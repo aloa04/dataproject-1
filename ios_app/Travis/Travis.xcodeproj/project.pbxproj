@@ -12,7 +12,6 @@
 		A72D065C27A6E44200EB8DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72D065B27A6E44200EB8DBB /* Assets.xcassets */; };
 		A72D065F27A6E44200EB8DBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72D065E27A6E44200EB8DBB /* Preview Assets.xcassets */; };
 		A72D066827A6F60200EB8DBB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D066727A6F60200EB8DBB /* SwiftUIView.swift */; };
-		A72D066A27A6F61A00EB8DBB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72D066927A6F61A00EB8DBB /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		A72D065B27A6E44200EB8DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72D065E27A6E44200EB8DBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A72D066727A6F60200EB8DBB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = ../../Travis/Travis/SwiftUIView.swift; sourceTree = "<group>"; };
-		A72D066927A6F61A00EB8DBB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../../Travis/Travis/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 				A72D065727A6E44000EB8DBB /* TravisApp.swift */,
 				A72D065927A6E44000EB8DBB /* ContentView.swift */,
 				A72D066727A6F60200EB8DBB /* SwiftUIView.swift */,
-				A72D066927A6F61A00EB8DBB /* Storyboard.storyboard */,
 				A72D065B27A6E44200EB8DBB /* Assets.xcassets */,
 				A72D065D27A6E44200EB8DBB /* Preview Content */,
 			);
@@ -133,7 +130,6 @@
 			files = (
 				A72D065F27A6E44200EB8DBB /* Preview Assets.xcassets in Resources */,
 				A72D065C27A6E44200EB8DBB /* Assets.xcassets in Resources */,
-				A72D066A27A6F61A00EB8DBB /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
