@@ -12,7 +12,7 @@ create table Clients
     bloodPressureDiast int not null,
     cholesterol float null,
     smoker bit default null,
-    drinking float  null,
+    drinking int null,
     disability bit default null,
     previousPathology bit default null,
     postalCode int not null,
