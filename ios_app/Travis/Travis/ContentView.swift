@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
         HStack {
             Image("memoji")
                 .resizable()
@@ -22,7 +22,13 @@ struct ContentView: View {
                 Text("Miembro desde 2022")
             }
         }
-            VStack {
+            HStack(alignment: .center, spacing: 2.0){
+                MedalsChart(medal: "hexagon.fill", wi: 75, he: 75)
+                MedalsChart(medal: "shield.fill", wi: 85, he: 85)
+                MedalsChart(medal: "diamond.fill", wi: 75, he: 75)
+            }
+            
+            VStack(alignment: .leading) {
                 Text("División (3 iconos, uno de ellos con mayor tamaño")
                     .padding(.bottom, 25)
                 Text("74 puntos")
@@ -50,3 +56,20 @@ struct ContentView_Previews:
             ContentView()
         }
     }
+
+struct MedalsChart: View {
+    var medal: String
+    var wi: CGFloat
+    var he: CGFloat
+    var body: some View {
+        VStack(alignment: .center) {
+            Image(systemName: medal)
+                .renderingMode(.original)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: wi, height: he)
+                .padding()
+                .background(Color.blue)
+        }
+    }
+}
