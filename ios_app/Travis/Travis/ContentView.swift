@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import MapKit
+import SwiftUICharts
 
 struct ContentView: View {
     var body: some View {
@@ -22,17 +24,38 @@ struct ContentView: View {
                 Text("Miembro desde 2022")
             }
         }
-            HStack(alignment: .center, spacing: 2.0){
+            VStack{
+                PieChartView(data: [70, 30,], title: "Prueba")
+                
+                LineView(data: [10, 30, 40, 90], title: "Uff")
+                Spacer()
+                
+            }
+            HStack(alignment: .center, spacing: 15.0){
+                MedalsChart(medal: "triangle.fill", wi: 75, he: 75)
                 MedalsChart(medal: "hexagon.fill", wi: 75, he: 75)
                 MedalsChart(medal: "shield.fill", wi: 85, he: 85)
                 MedalsChart(medal: "diamond.fill", wi: 75, he: 75)
             }
             
+            VStack(alignment: .center) {
+                Text("División Shield")
+                    .font(.title)
+                    .fontWeight(.regular)
+                    .multilineTextAlignment(.center)
+                Text("Te faltan 10 puntos para avanzar a la siguiente división ")
+                    .multilineTextAlignment(.center)
+                    .padding([.leading, .bottom, .trailing], 25)
+
+            }
+            
             VStack(alignment: .leading) {
-                Text("División (3 iconos, uno de ellos con mayor tamaño")
-                    .padding(.bottom, 25)
                 Text("74 puntos")
+                    .font(.callout)
+                    .multilineTextAlignment(.center)
                     .padding(.bottom, 25)
+                    .background(Color(hue: 0.488, saturation: 0.77, brightness: 0.876))
+                    .cornerRadius(10)
                 Text("KM andados + 34% de la media")
                     .padding(.bottom, 25)
                 Text("KM en cleta + 2% de la media")
@@ -54,6 +77,7 @@ struct ContentView_Previews:
     PreviewProvider {
         static var previews: some View {
             ContentView()
+
         }
     }
 
@@ -68,8 +92,9 @@ struct MedalsChart: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: wi, height: he)
-                .padding()
-                .background(Color.blue)
+                .padding(5.0)
+                .background(Color(hue: 0.488, saturation: 0.77, brightness: 0.876))
+                .cornerRadius(20)
         }
     }
 }
