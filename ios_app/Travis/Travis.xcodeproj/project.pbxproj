@@ -7,110 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A72D065827A6E44000EB8DBB /* TravisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D065727A6E44000EB8DBB /* TravisApp.swift */; };
-		A72D065A27A6E44000EB8DBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D065927A6E44000EB8DBB /* ContentView.swift */; };
-		A72D065C27A6E44200EB8DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72D065B27A6E44200EB8DBB /* Assets.xcassets */; };
-		A72D065F27A6E44200EB8DBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72D065E27A6E44200EB8DBB /* Preview Assets.xcassets */; };
-		A72D066827A6F60200EB8DBB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D066727A6F60200EB8DBB /* SwiftUIView.swift */; };
-		A73CA8B527A9B37C00E9C3DF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A73CA8B427A9B37C00E9C3DF /* SwiftUICharts */; };
+		A71FFD8127AA8F3D00C94F8C /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71FFD8027AA8F3D00C94F8C /* Routes.swift */; };
+		A774787B27A9CC35000AC169 /* MapsRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A774787A27A9CC35000AC169 /* MapsRoutes.swift */; };
+		A7F4A44227AAA77600D36FD7 /* HData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4A44127AAA77600D36FD7 /* HData.swift */; };
+		A7F4A44427AAA7AA00D36FD7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4A44327AAA7AA00D36FD7 /* Card.swift */; };
+		A7F4A44827AAAC4C00D36FD7 /* Ajustes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4A44727AAAC4C00D36FD7 /* Ajustes.swift */; };
+		AD77400B270722CA003446CC /* AnalyticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD773FE3270722C9003446CC /* AnalyticsApp.swift */; };
+		AD77400D270722CA003446CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD773FE4270722C9003446CC /* ContentView.swift */; };
+		AD77400F270722CA003446CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD773FE5270722CA003446CC /* Assets.xcassets */; };
+		ADBEE6772707510A00CDC30F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBEE6762707510A00CDC30F /* BaseView.swift */; };
+		ADBEE679270752BF00CDC30F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBEE678270752BF00CDC30F /* Home.swift */; };
+		ADBEE67B270753A700CDC30F /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBEE67A270753A700CDC30F /* BarGraph.swift */; };
+		ADBEE67D270753BB00CDC30F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBEE67C270753BB00CDC30F /* Download.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD773FF8270722CA003446CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD773FDE270722C9003446CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD773FE9270722CA003446CC;
+			remoteInfo = "Analytics (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A72D065427A6E44000EB8DBB /* Travis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A72D065727A6E44000EB8DBB /* TravisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisApp.swift; sourceTree = "<group>"; };
-		A72D065927A6E44000EB8DBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A72D065B27A6E44200EB8DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A72D065E27A6E44200EB8DBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A72D066727A6F60200EB8DBB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = ../../Travis/Travis/SwiftUIView.swift; sourceTree = "<group>"; };
+		A71FFD8027AA8F3D00C94F8C /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		A774787727A9B8AE000AC169 /* Travis--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Travis--iOS--Info.plist"; sourceTree = "<group>"; };
+		A774787A27A9CC35000AC169 /* MapsRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsRoutes.swift; sourceTree = "<group>"; };
+		A7F4A44127AAA77600D36FD7 /* HData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HData.swift; sourceTree = "<group>"; };
+		A7F4A44327AAA7AA00D36FD7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A7F4A44727AAAC4C00D36FD7 /* Ajustes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajustes.swift; sourceTree = "<group>"; };
+		AD773FE3270722C9003446CC /* AnalyticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsApp.swift; sourceTree = "<group>"; };
+		AD773FE4270722C9003446CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD773FE5270722CA003446CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD773FEA270722CA003446CC /* Travis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD773FF7270722CA003446CC /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBEE6762707510A00CDC30F /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		ADBEE678270752BF00CDC30F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADBEE67A270753A700CDC30F /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		ADBEE67C270753BB00CDC30F /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A72D065127A6E44000EB8DBB /* Frameworks */ = {
+		AD773FE7270722CA003446CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73CA8B527A9B37C00E9C3DF /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD773FF4270722CA003446CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A72D064B27A6E44000EB8DBB = {
+		A71FFD8227AA981800C94F8C /* User Routes */ = {
 			isa = PBXGroup;
 			children = (
-				A72D065627A6E44000EB8DBB /* Travis */,
-				A72D065527A6E44000EB8DBB /* Products */,
+				A774787A27A9CC35000AC169 /* MapsRoutes.swift */,
+			);
+			path = "User Routes";
+			sourceTree = "<group>";
+		};
+		AD773FDD270722C9003446CC = {
+			isa = PBXGroup;
+			children = (
+				A774787727A9B8AE000AC169 /* Travis--iOS--Info.plist */,
+				AD773FE2270722C9003446CC /* Shared */,
+				AD773FEB270722CA003446CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A72D065527A6E44000EB8DBB /* Products */ = {
+		AD773FE2270722C9003446CC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				A72D065427A6E44000EB8DBB /* Travis.app */,
+				AD773FE3270722C9003446CC /* AnalyticsApp.swift */,
+				AD773FE4270722C9003446CC /* ContentView.swift */,
+				ADBEE674270750FF00CDC30F /* Vistas */,
+				ADBEE6752707510300CDC30F /* Model */,
+				AD773FE5270722CA003446CC /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD773FEB270722CA003446CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD773FEA270722CA003446CC /* Travis.app */,
+				AD773FF7270722CA003446CC /* Tests iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A72D065627A6E44000EB8DBB /* Travis */ = {
+		ADBEE674270750FF00CDC30F /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
-				A72D065727A6E44000EB8DBB /* TravisApp.swift */,
-				A72D065927A6E44000EB8DBB /* ContentView.swift */,
-				A72D066727A6F60200EB8DBB /* SwiftUIView.swift */,
-				A72D065B27A6E44200EB8DBB /* Assets.xcassets */,
-				A72D065D27A6E44200EB8DBB /* Preview Content */,
+				ADBEE6762707510A00CDC30F /* BaseView.swift */,
+				ADBEE678270752BF00CDC30F /* Home.swift */,
+				A7F4A44127AAA77600D36FD7 /* HData.swift */,
+				A71FFD8027AA8F3D00C94F8C /* Routes.swift */,
+				A7F4A44727AAAC4C00D36FD7 /* Ajustes.swift */,
 			);
-			path = Travis;
+			path = Vistas;
 			sourceTree = "<group>";
 		};
-		A72D065D27A6E44200EB8DBB /* Preview Content */ = {
+		ADBEE6752707510300CDC30F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A72D065E27A6E44200EB8DBB /* Preview Assets.xcassets */,
+				ADBEE67A270753A700CDC30F /* BarGraph.swift */,
+				ADBEE67C270753BB00CDC30F /* Download.swift */,
+				A7F4A44327AAA7AA00D36FD7 /* Card.swift */,
+				A71FFD8227AA981800C94F8C /* User Routes */,
 			);
-			path = "Preview Content";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A72D065327A6E44000EB8DBB /* Travis */ = {
+		AD773FE9270722CA003446CC /* Travis (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A72D066227A6E44200EB8DBB /* Build configuration list for PBXNativeTarget "Travis" */;
+			buildConfigurationList = AD774013270722CA003446CC /* Build configuration list for PBXNativeTarget "Travis (iOS)" */;
 			buildPhases = (
-				A72D065027A6E44000EB8DBB /* Sources */,
-				A72D065127A6E44000EB8DBB /* Frameworks */,
-				A72D065227A6E44000EB8DBB /* Resources */,
+				AD773FE6270722CA003446CC /* Sources */,
+				AD773FE7270722CA003446CC /* Frameworks */,
+				AD773FE8270722CA003446CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Travis;
-			packageProductDependencies = (
-				A73CA8B427A9B37C00E9C3DF /* SwiftUICharts */,
-			);
-			productName = Travis;
-			productReference = A72D065427A6E44000EB8DBB /* Travis.app */;
+			name = "Travis (iOS)";
+			productName = "Analytics (iOS)";
+			productReference = AD773FEA270722CA003446CC /* Travis.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AD773FF6270722CA003446CC /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD774019270722CA003446CC /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD773FF3270722CA003446CC /* Sources */,
+				AD773FF4270722CA003446CC /* Frameworks */,
+				AD773FF5270722CA003446CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD773FF9270722CA003446CC /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD773FF7270722CA003446CC /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A72D064C27A6E44000EB8DBB /* Project object */ = {
+		AD773FDE270722C9003446CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					A72D065327A6E44000EB8DBB = {
-						CreatedOnToolsVersion = 13.2.1;
+					AD773FE9270722CA003446CC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD773FF6270722CA003446CC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD773FE9270722CA003446CC;
 					};
 				};
 			};
-			buildConfigurationList = A72D064F27A6E44000EB8DBB /* Build configuration list for PBXProject "Travis" */;
+			buildConfigurationList = AD773FE1270722C9003446CC /* Build configuration list for PBXProject "Travis" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,46 +193,73 @@
 				en,
 				Base,
 			);
-			mainGroup = A72D064B27A6E44000EB8DBB;
-			packageReferences = (
-				A73CA8B327A9B37B00E9C3DF /* XCRemoteSwiftPackageReference "ChartView" */,
-			);
-			productRefGroup = A72D065527A6E44000EB8DBB /* Products */;
+			mainGroup = AD773FDD270722C9003446CC;
+			productRefGroup = AD773FEB270722CA003446CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A72D065327A6E44000EB8DBB /* Travis */,
+				AD773FE9270722CA003446CC /* Travis (iOS) */,
+				AD773FF6270722CA003446CC /* Tests iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A72D065227A6E44000EB8DBB /* Resources */ = {
+		AD773FE8270722CA003446CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72D065F27A6E44200EB8DBB /* Preview Assets.xcassets in Resources */,
-				A72D065C27A6E44200EB8DBB /* Assets.xcassets in Resources */,
+				AD77400F270722CA003446CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD773FF5270722CA003446CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A72D065027A6E44000EB8DBB /* Sources */ = {
+		AD773FE6270722CA003446CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72D065A27A6E44000EB8DBB /* ContentView.swift in Sources */,
-				A72D065827A6E44000EB8DBB /* TravisApp.swift in Sources */,
-				A72D066827A6F60200EB8DBB /* SwiftUIView.swift in Sources */,
+				ADBEE67B270753A700CDC30F /* BarGraph.swift in Sources */,
+				A71FFD8127AA8F3D00C94F8C /* Routes.swift in Sources */,
+				A7F4A44227AAA77600D36FD7 /* HData.swift in Sources */,
+				ADBEE6772707510A00CDC30F /* BaseView.swift in Sources */,
+				A774787B27A9CC35000AC169 /* MapsRoutes.swift in Sources */,
+				A7F4A44827AAAC4C00D36FD7 /* Ajustes.swift in Sources */,
+				AD77400D270722CA003446CC /* ContentView.swift in Sources */,
+				ADBEE67D270753BB00CDC30F /* Download.swift in Sources */,
+				A7F4A44427AAA7AA00D36FD7 /* Card.swift in Sources */,
+				ADBEE679270752BF00CDC30F /* Home.swift in Sources */,
+				AD77400B270722CA003446CC /* AnalyticsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD773FF3270722CA003446CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AD773FF9270722CA003446CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD773FE9270722CA003446CC /* Travis (iOS) */;
+			targetProxy = AD773FF8270722CA003446CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		A72D066027A6E44200EB8DBB /* Debug */ = {
+		AD774011270722CA003446CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,13 +314,12 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A72D066127A6E44200EB8DBB /* Release */ = {
+		AD774012270722CA003446CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,110 +367,154 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A72D066327A6E44200EB8DBB /* Debug */ = {
+		AD774014270722CA003446CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Travis/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Travis--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shonos.Travis;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.shonos.travis;
+				PRODUCT_NAME = Travis;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A72D066427A6E44200EB8DBB /* Release */ = {
+		AD774015270722CA003446CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Travis/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Travis--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shonos.Travis;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.shonos.travis;
+				PRODUCT_NAME = Travis;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD77401A270722CA003446CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Analytics (iOS)";
+			};
+			name = Debug;
+		};
+		AD77401B270722CA003446CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Analytics (iOS)";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A72D064F27A6E44000EB8DBB /* Build configuration list for PBXProject "Travis" */ = {
+		AD773FE1270722C9003446CC /* Build configuration list for PBXProject "Travis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A72D066027A6E44200EB8DBB /* Debug */,
-				A72D066127A6E44200EB8DBB /* Release */,
+				AD774011270722CA003446CC /* Debug */,
+				AD774012270722CA003446CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A72D066227A6E44200EB8DBB /* Build configuration list for PBXNativeTarget "Travis" */ = {
+		AD774013270722CA003446CC /* Build configuration list for PBXNativeTarget "Travis (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A72D066327A6E44200EB8DBB /* Debug */,
-				A72D066427A6E44200EB8DBB /* Release */,
+				AD774014270722CA003446CC /* Debug */,
+				AD774015270722CA003446CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD774019270722CA003446CC /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77401A270722CA003446CC /* Debug */,
+				AD77401B270722CA003446CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A73CA8B327A9B37B00E9C3DF /* XCRemoteSwiftPackageReference "ChartView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/ChartView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A73CA8B427A9B37C00E9C3DF /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A73CA8B327A9B37B00E9C3DF /* XCRemoteSwiftPackageReference "ChartView" */;
-			productName = SwiftUICharts;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A72D064C27A6E44000EB8DBB /* Project object */;
+	rootObject = AD773FDE270722C9003446CC /* Project object */;
 }
