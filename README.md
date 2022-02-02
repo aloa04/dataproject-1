@@ -57,3 +57,8 @@ Los **clientes de Zurich** podrán descargar la aplicación TRAVIS desde la AppS
 
 Los **agentes de Zurich** tendrán un portal web al que podrán acceder para analizar la situación de su cartera de clientes y así poder tomar mejores decisiones. 
 
+Para acceder a la web, los agentes deberán entrar a [Control Panel (shonos.digital)](https://travis.shonos.digital/)
+
+- Usuario: agente_demo
+- Contraseña: demo_agente98
+
