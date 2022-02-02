@@ -53,7 +53,7 @@ El objetivo del proyecto es diseñar un modelo que cuantifique la actividad fís
 
 ## Aplicaciones para los clientes
 
-Los clientes de Zurich podrán descargar la aplicación TRAVIS desde la AppStore de Apple. En ella podrán ver toda la información sobre su salud, además de recolectar los datos necesarios para la cuantificación de su ejercicio.
+Los **clientes de Zurich** podrán descargar la aplicación TRAVIS desde la AppStore de Apple. En ella podrán ver toda la información sobre su salud, además de recolectar los datos necesarios para la cuantificación de su ejercicio.
 
-Los agentes de Zurich tendrán un portal web al que podrán acceder para analizar la situación de su cartera de clientes y así poder tomar mejores decisiones. 
+Los **agentes de Zurich** tendrán un portal web al que podrán acceder para analizar la situación de su cartera de clientes y así poder tomar mejores decisiones. 
 
