@@ -37,7 +37,7 @@ consumer = KafkaConsumer(
 )
 num = 0
 
-connection = mysql.connector.connect(host='192.168.1.141',
+connection = mysql.connector.connect(host='localhost',     #Se cambia a localhost porque para el ejercicio se va a levantar todo en el mismo server. Normalmente debe ponerse el host real de conexion al servidor de BD
                                      database='zurich',
                                      user='root',
                                      password='ZurichDb')
