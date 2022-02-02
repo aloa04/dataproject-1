@@ -1,4 +1,5 @@
-
+CREATE DATABASE zurich;
+use zurich;
 create table Clients
 (
     clientId varchar(20) primary key not null,
@@ -62,11 +63,6 @@ create table KmxDay
         foreign key (clientsId) references Clients (clientId)
 );
 
-INSERT INTO zurich.Transports (transportName) VALUES ('bike');
-INSERT INTO zurich.Transports (transportName) VALUES ('train');
-INSERT INTO zurich.Transports (transportName) VALUES ('car');
-INSERT INTO zurich.Transports (transportName) VALUES ('walking');
-
 -- Procedure
 
 DELIMITER //
@@ -80,4 +76,3 @@ CREATE PROCEDURE InsertUpdateKM (id varchar(20), kmw FLOAT, kmbikec float, date 
   END //
 
 DELIMITER ;
-
