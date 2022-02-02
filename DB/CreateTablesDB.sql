@@ -62,6 +62,10 @@ create table KmxDay
     createDate timestamp default CURRENT_TIMESTAMP not null,
         foreign key (clientsId) references Clients (clientId)
 );
+INSERT INTO zurich.Transports (transportName) VALUES ('bike');
+INSERT INTO zurich.Transports (transportName) VALUES ('train');
+INSERT INTO zurich.Transports (transportName) VALUES ('car');
+INSERT INTO zurich.Transports (transportName) VALUES ('walking');
 
 -- Procedure
 

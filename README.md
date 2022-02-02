@@ -30,8 +30,9 @@ El objetivo del proyecto es diseñar un modelo que cuantifique la actividad fís
 ## Configuración del sistema
 
 1- Crear Base de datos con MariaDb
- - Abrir una terminal y posicionarse en la siguiente carpeta dentro del Repo: cd DB
- - Una vez en la carpeta ejecutar el siguiente comando en la terminal: docker build -t ZurichMariaDb . && docker run -it ZurichMariaDb
+ - Ejecutar el siguiente comando en la terminal: docker run --name zurichmariadb -e MYSQL_ROOT_PASSWORD=ZurichDb -p 3306:3306  -d docker.io/library/mariadb:latest
+ - Conectarse a la instancia de Mysql con una herramienta como Datagrip o WorkBench.
+ - Ejecutar los scripts contenidos en el archivo CreateTablesDB.sql que se encuentra en la carpeta DB
 
 2- Servicio Kafka.
  - En la terminal posicionarse en la siguiente carpeta dentro del Repo: cd ../DataGeneratorWithKafka/kafka-docker
