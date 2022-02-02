@@ -1,6 +1,6 @@
 # Data Project 1 - Master Data Analytics EDEM 2022
 
-| ![](https://github.com/aloa04/dataproject-1/blob/main/logo/logo_shonos.png?raw=true) | **Improve your business with Data Analysis**<br /><br />B2B2C projects for the healthcare sector |
+| ![](https://github.com/aloa04/dataproject-1/blob/main/media/logo_shonos.png?raw=true) | **Improve your business with Data Analysis**<br /><br />B2B2C projects for the healthcare sector |
 | ------------------------------------------------------------ | :----------------------------------------------------------: |
 
 ## Meet our team
@@ -56,3 +56,4 @@ El objetivo del proyecto es diseñar un modelo que cuantifique la actividad fís
 Los clientes de Zurich podrán descargar la aplicación TRAVIS desde la AppStore de Apple. En ella podrán ver toda la información sobre su salud, además de recolectar los datos necesarios para la cuantificación de su ejercicio.
 
 Los agentes de Zurich tendrán un portal web al que podrán acceder para analizar la situación de su cartera de clientes y así poder tomar mejores decisiones. 
+
