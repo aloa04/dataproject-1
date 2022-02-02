@@ -2,5 +2,4 @@ keyboard
 Faker 
 
 kafka-python
-pyspark
-Findspark
+mysql-connector-python
