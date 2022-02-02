@@ -14,17 +14,20 @@
 
 
 
-## Our project
+## Proyecto
 
-The goal of the project is to design a model that quantifies the physical activity of users on a daily basis in order to analyze their lifestyle and thus adapt their insurance, as well as to offer them an insight to help them achieve a more active life.
+El objetivo del proyecto es diseñar un modelo que cuantifique la actividad física de los usuarios en su día a día para analizar su estilo de vida y así adaptar su seguro, además de ofrecerles una visión que les ayude a conseguir una vida más activa.
 
 ## Requerimientos de software
-1- Tener docker instalado. De no tenerlo ir a está página y seguir las instrucciones para la instalación, según sistema operativo: 
-    https://docs.docker.com/get-docker/
-2- Asegurarse de tener los siguientes puertos disponibles: 3306, 9092, 2181
-3- Tener python 3.9 instalado.
+1. Docker
 
-## Configuración
+2. Asegurarse de tener los siguientes puertos disponibles: 
+   - 3306
+   - 9092
+   - 2181
+3. Python (v. 3.9)
+
+## Configuración del sistema
 
 1- Crear Base de datos con MariaDb
  - Abrir una terminal y posicionarse en la siguiente carpeta dentro del Repo: cd DB
@@ -47,3 +50,9 @@ The goal of the project is to design a model that quantifies the physical activi
    * Si se quiere detener el producer se deben presionar las siguientes teclas en la terminal: control + c
 
 * Si se requiere validar la data en la base de datos, el diagrama que se encuentra en la carpeta DB tiene la estructura de tablas y relacion de la misma.
+
+## Aplicaciones para los clientes
+
+Los clientes de Zurich podrán descargar la aplicación TRAVIS desde la AppStore de Apple. En ella podrán ver toda la información sobre su salud, además de recolectar los datos necesarios para la cuantificación de su ejercicio.
+
+Los agentes de Zurich tendrán un portal web al que podrán acceder para analizar la situación de su cartera de clientes y así poder tomar mejores decisiones. 
